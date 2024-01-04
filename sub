@@ -1,0 +1,14 @@
+"""
+두 수의 차
+
+num1과 num2가 주어질때 , num1에서 num2를 뺀 값을 return하도록 solution함수 완성 후 출력
+"""
+
+def solution(num1, num2):
+    answer = num1 - num2
+    return answer
+
+num1, num2 = map(int, input().split())
+
+print(solution(num1, num2))
+
