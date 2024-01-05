@@ -1,0 +1,11 @@
+def solution(numbers):
+    result = 0
+    for i in numbers:
+        result+=i
+    
+    result/=len(numbers)
+    return result
+
+list1 = list(map(int, input().split()))
+
+print(solution(list1))
