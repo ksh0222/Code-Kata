@@ -1,0 +1,7 @@
+def solution(num):
+    return "Even" if num%2 == 0 else "Odd"
+
+
+num1 = int(input())
+
+print(solution(num1))
