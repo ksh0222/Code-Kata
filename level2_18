@@ -1,0 +1,6 @@
+def solution(s):
+    return int(s)
+
+n = input()
+
+print(solution(n))
