@@ -1,0 +1,7 @@
+# .gitattributes
+
+# 모든 파일에 대한 설정
+* text=auto eol=lf
+
+# 특정 파일에 대한 설정
+specific_file.txt text eol=lf
